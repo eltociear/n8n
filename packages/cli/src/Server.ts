@@ -123,7 +123,7 @@ import type {
 import { AUTH_COOKIE_NAME, RESPONSE_ERROR_MESSAGES } from './constants';
 import { credentialsController } from './api/credentials.api';
 import { executionsController } from './api/executions.api';
-import { workflowsController } from './api/workflows.api';
+import { workflowsController } from './workflows/workflows.controller';
 import { nodesController } from './api/nodes.api';
 import { oauth2CredentialController } from './api/oauth2Credential.api';
 import { tagsController } from './api/tags.api';

@@ -61,7 +61,7 @@ import type {
 	PostgresSchemaSection,
 } from './types';
 import type { N8nApp } from '../../../src/UserManagement/Interfaces';
-import { workflowsController } from '../../../src/api/workflows.api';
+import { workflowsController } from '../../../src/workflows/workflows.controller';
 import { nodesController } from '../../../src/api/nodes.api';
 import { randomName } from './random';
 import { InstalledPackages } from '../../../src/databases/entities/InstalledPackages';
