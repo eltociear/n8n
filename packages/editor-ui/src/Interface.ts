@@ -847,6 +847,49 @@ export interface INodeMetadata {
 	parametersLastUpdatedAt?: number;
 }
 
+// TODO:
+//	- Make this the only root state once migration is done
+//	- Remove commented out props
+export interface IRootStatePinia {
+	// --> UI store
+	// activeExecutions: IExecutionsCurrentSummaryExtended[];
+	// activeWorkflows: string[];
+	// activeActions: string[];
+	// activeCredentialType: string | null;
+	// activeNode: string | null;
+	baseUrl: string;
+	defaultLocale: string;
+	endpointWebhook: string;
+	endpointWebhookTest: string;
+	executionId: string | null;
+	executingNode: string | null;
+	executionWaitingForWebhook: boolean;
+	pushConnectionActive: boolean;
+	saveDataErrorExecution: string;
+	saveDataSuccessExecution: string;
+	saveManualExecutions: boolean;
+	timezone: string;
+	// stateIsDirty: boolean; // --> UI Store
+	executionTimeout: number;
+	maxExecutionTimeout: number;
+	versionCli: string;
+	oauthCallbackUrls: object;
+	n8nMetadata: object;
+	// workflowExecutionData: IExecutionResponse | null; // --> WF store
+	// lastSelectedNode: string | null; // --> UI Store
+	// lastSelectedNodeOutputIndex: number | null; // --> UI Store
+	// nodeViewOffsetPosition: XYPosition; // --> UI Store
+	// nodeViewMoveInProgress: boolean; // --> UI Store
+	// selectedNodes: INodeUi[]; // --> UI Store
+	sessionId: string;
+	urlBaseWebhook: string;
+	// workflow: IWorkflowDb; // --> WF Store
+	// sidebarMenuItems: IMenuItem[]; // --> UI Store
+	instanceId: string;
+	nodeMetadata: INodeMetadataMap;
+	isNpmAvailable: boolean;
+}
+
 export interface IRootState {
 	activeExecutions: IExecutionsCurrentSummaryExtended[];
 	activeWorkflows: string[];
@@ -882,8 +925,12 @@ export interface IRootState {
 	workflow: IWorkflowDb;
 	sidebarMenuItems: IMenuItem[];
 	instanceId: string;
-	nodeMetadata: {[nodeName: string]: INodeMetadata};
+	nodeMetadata: INodeMetadataMap;
 	isNpmAvailable: boolean;
+}
+
+export interface INodeMetadataMap {
+	[nodeName: string]: INodeMetadata;
 }
 
 export interface ICommunityPackageMap {
