@@ -33,6 +33,12 @@ module.exports = {
 		 * https://github.com/prettier/eslint-plugin-prettier
 		 */
 		'eslint-plugin-prettier',
+
+		/**
+		 * Plugin to allow specifying local ESLint rules.
+		 * https://github.com/cletusw/eslint-plugin-local-rules
+		 */
+		'eslint-plugin-local-rules',
 	],
 
 	extends: [
@@ -180,10 +186,7 @@ module.exports = {
 		/**
 		 * https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-member-accessibility.md
 		 */
-		'@typescript-eslint/explicit-member-accessibility': [
-			'error',
-			{ accessibility: 'no-public' },
-		],
+		'@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
 
 		/**
 		 * https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md
@@ -312,6 +315,12 @@ module.exports = {
 		 * https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/order.md
 		 */
 		'import/order': 'error',
+
+		// ----------------------------------
+		//     eslint-plugin-local-rules
+		// ----------------------------------
+
+		'local-rules/require-catch-json-parse': 'off', // TODO: enable and fix offenses
 
 		// ******************************************************************
 		//                    overrides to base ruleset
