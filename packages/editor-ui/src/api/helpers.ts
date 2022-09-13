@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, Method } from 'axios';
-import { IDataObject } from 'n8n-workflow';
+import type { IDataObject } from 'n8n-workflow';
 import type { IRestApiContext } from '../Interface';
 
 class ResponseError extends Error {

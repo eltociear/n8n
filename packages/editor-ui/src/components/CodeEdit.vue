@@ -19,7 +19,7 @@ import { workflowHelpers } from '@/components/mixins/workflowHelpers';
 
 import mixins from 'vue-typed-mixins';
 import { IExecutionResponse, INodeUi } from '@/Interface';
-import {
+import type {
 	IBinaryKeyData,
 	IDataObject,
 	INodeExecutionData,

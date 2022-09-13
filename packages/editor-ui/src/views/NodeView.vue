@@ -194,7 +194,7 @@ import * as CanvasHelpers from './canvasHelpers';
 
 import mixins from 'vue-typed-mixins';
 import { v4 as uuid } from 'uuid';
-import {
+import type {
 	IConnection,
 	IConnections,
 	IDataObject,
@@ -209,10 +209,9 @@ import {
 	ITaskData,
 	ITelemetryTrackProperties,
 	IWorkflowBase,
-	NodeHelpers,
-	TelemetryHelpers,
 	Workflow,
 } from 'n8n-workflow';
+import { NodeHelpers, TelemetryHelpers } from 'n8n-workflow';
 import {
 	ICredentialsResponse,
 	IExecutionResponse,

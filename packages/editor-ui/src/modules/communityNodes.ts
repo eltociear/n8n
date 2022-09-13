@@ -1,7 +1,7 @@
 import { getInstalledCommunityNodes, installNewPackage, uninstallPackage, updatePackage } from '@/api/communityNodes';
 import { getAvailableCommunityPackageCount } from '@/api/settings';
 import { ICommunityNodesState, ICommunityPackageMap, IRootState } from '@/Interface';
-import { PublicInstalledPackage } from 'n8n-workflow';
+import type { PublicInstalledPackage } from 'n8n-workflow';
 import Vue from 'vue';
 import { ActionContext, Module } from 'vuex';
 

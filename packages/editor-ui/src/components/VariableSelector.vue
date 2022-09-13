@@ -16,7 +16,7 @@ import {
 	PLACEHOLDER_FILLED_AT_EXECUTION_TIME, STICKY_NODE_TYPE,
 } from '@/constants';
 
-import {
+import type {
 	GenericValue,
 	IContextObject,
 	IDataObject,

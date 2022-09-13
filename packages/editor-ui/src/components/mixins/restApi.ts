@@ -16,16 +16,9 @@ import {
 	IWorkflowShortResponse,
 	IRestApi,
 	IWorkflowDataUpdate,
-	INodeTranslationHeaders,
 } from '@/Interface';
-import {
+import type {
 	IDataObject,
-	ILoadOptions,
-	INodeCredentials,
-	INodeParameters,
-	INodePropertyOptions,
-	INodeTypeDescription,
-	INodeTypeNameVersion,
 } from 'n8n-workflow';
 import { makeRestApiRequest } from '@/api/helpers';
 

@@ -49,10 +49,10 @@ import { externalHooks } from '@/components/mixins/externalHooks';
 import { nodeBase } from '@/components/mixins/nodeBase';
 import { nodeHelpers } from '@/components/mixins/nodeHelpers';
 import { workflowHelpers } from '@/components/mixins/workflowHelpers';
-import { getStyleTokenValue, isNumber, isString } from './helpers';
+import { isNumber, isString } from './helpers';
 import { INodeUi, XYPosition } from '@/Interface';
 
-import {
+import type {
 	INodeTypeDescription,
 } from 'n8n-workflow';
 import { QUICKSTART_NOTE_NAME } from '@/constants';

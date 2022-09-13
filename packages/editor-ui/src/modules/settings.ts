@@ -10,7 +10,7 @@ import {
 import { getPromptsData, submitValueSurvey, submitContactInfo, getSettings } from '../api/settings';
 import Vue from 'vue';
 import { CONTACT_PROMPT_MODAL_KEY, VALUE_SURVEY_MODAL_KEY } from '@/constants';
-import { ITelemetrySettings } from 'n8n-workflow';
+import type { ITelemetrySettings } from 'n8n-workflow';
 import { testHealthEndpoint } from '@/api/templates';
 import {createApiKey, deleteApiKey, getApiKey} from "@/api/api-keys";
 

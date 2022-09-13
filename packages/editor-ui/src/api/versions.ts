@@ -1,6 +1,5 @@
 import { IVersion } from '@/Interface';
 import { INSTANCE_ID_HEADER } from '@/constants';
-import { IDataObject } from 'n8n-workflow';
 import { get } from './helpers';
 
 export async function getNextVersions(endpoint: string, version: string, instanceId: string): Promise<IVersion[]> {

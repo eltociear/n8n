@@ -7,7 +7,7 @@ import {
 	VIEWS,
 } from '@/constants';
 
-import {
+import type {
 	IConnections,
 	IDataObject,
 	INode,

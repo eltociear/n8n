@@ -55,7 +55,7 @@
 </template>
 
 <script lang="ts">
-import { PublicInstalledPackage } from 'n8n-workflow';
+import type { PublicInstalledPackage } from 'n8n-workflow';
 import mixins from 'vue-typed-mixins';
 import {
 	NPM_PACKAGE_DOCS_BASE_URL,

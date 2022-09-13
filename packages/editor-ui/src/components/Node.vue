@@ -98,7 +98,7 @@ import { nodeHelpers } from '@/components/mixins/nodeHelpers';
 import { workflowHelpers } from '@/components/mixins/workflowHelpers';
 import { pinData } from '@/components/mixins/pinData';
 
-import {
+import type {
 	INodeTypeDescription,
 	ITaskData,
 	NodeHelpers,

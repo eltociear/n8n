@@ -11,7 +11,7 @@
 import { externalHooks } from '@/components/mixins/externalHooks';
 import { COMMUNITY_NODES_INSTALLATION_DOCS_URL, NPM_PACKAGE_DOCS_BASE_URL } from '@/constants';
 import { INodeUi, ITab } from '@/Interface';
-import { INodeTypeDescription } from 'n8n-workflow';
+import type { INodeTypeDescription } from 'n8n-workflow';
 
 import mixins from 'vue-typed-mixins';
 import { isCommunityPackageName } from './helpers';

@@ -41,7 +41,7 @@
 </template>
 
 <script lang="ts">
-import {
+import type {
 	INodeTypeDescription,
 	IWebhookDescription,
 } from 'n8n-workflow';

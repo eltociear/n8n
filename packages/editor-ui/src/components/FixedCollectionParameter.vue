@@ -111,7 +111,7 @@ import {
 	IUpdateInformation,
 } from '@/Interface';
 
-import {
+import type {
 	INodeParameters,
 	INodePropertyCollection,
 } from 'n8n-workflow';

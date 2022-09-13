@@ -7,7 +7,7 @@ import { NO_OP_NODE_TYPE, STICKY_NODE_TYPE } from '@/constants';
 import * as CanvasHelpers from '@/views/canvasHelpers';
 import { Endpoint } from 'jsplumb';
 
-import {
+import type {
 	INodeTypeDescription,
 } from 'n8n-workflow';
 import { getStyleTokenValue } from '../helpers';

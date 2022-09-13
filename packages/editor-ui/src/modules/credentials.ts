@@ -18,7 +18,7 @@ import {
 	ICredentialTypeMap,
 	IRootState,
 } from '../Interface';
-import {
+import type {
 	ICredentialType,
 	ICredentialsDecrypted,
 	INodeCredentialTestResult,

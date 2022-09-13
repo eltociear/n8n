@@ -1,5 +1,5 @@
 import { IExternalHooks, IRootState } from '@/Interface';
-import { IDataObject } from 'n8n-workflow';
+import type { IDataObject } from 'n8n-workflow';
 import Vue from 'vue';
 import { Store } from 'vuex';
 

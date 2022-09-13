@@ -37,7 +37,7 @@ import {
 	IUpdateInformation,
 } from '@/Interface';
 
-import {
+import type {
 	INodeProperties,
 	INodePropertyOptions,
 } from 'n8n-workflow';

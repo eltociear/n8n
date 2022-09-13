@@ -4,7 +4,7 @@ import {
 	IStartRunData,
 } from '@/Interface';
 
-import {
+import type {
 	IRunData,
 	IRunExecutionData,
 	IWorkflowBase,

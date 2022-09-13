@@ -90,10 +90,9 @@
 
 <script lang="ts">
 
-import {
+import type {
 	INodeParameters,
 	INodeProperties,
-	INodeType,
 	INodeTypeDescription,
 	NodeParameterValue,
 } from 'n8n-workflow';

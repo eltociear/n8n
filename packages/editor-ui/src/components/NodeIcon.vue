@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { IVersionNode } from '@/Interface';
-import { INodeTypeDescription } from 'n8n-workflow';
+import type { INodeTypeDescription } from 'n8n-workflow';
 import Vue from 'vue';
 
 interface NodeIconSource {

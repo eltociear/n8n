@@ -67,7 +67,7 @@
 
 <script lang="ts">
 import { INodeUi } from '@/Interface';
-import { IConnectedNode, Workflow } from 'n8n-workflow';
+import type { IConnectedNode, Workflow } from 'n8n-workflow';
 import RunData from './RunData.vue';
 import { workflowHelpers } from '@/components/mixins/workflowHelpers';
 import mixins from 'vue-typed-mixins';

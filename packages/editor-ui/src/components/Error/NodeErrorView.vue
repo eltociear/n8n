@@ -98,15 +98,11 @@ import mixins from 'vue-typed-mixins';
 import {
 	MAX_DISPLAY_DATA_SIZE,
 } from '@/constants';
-import {
-	INodeUi,
-} from '@/Interface';
 
-import {
+import type {
 	INodeProperties,
 	INodePropertyCollection,
 	INodePropertyOptions,
-	INodeTypeDescription,
 } from 'n8n-workflow';
 
 export default mixins(

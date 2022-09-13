@@ -1,5 +1,5 @@
 import _Vue from "vue";
-import {
+import type {
 	ITelemetrySettings,
 	ITelemetryTrackProperties,
 	IDataObject,

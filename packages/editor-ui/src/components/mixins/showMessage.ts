@@ -3,7 +3,7 @@ import { ElNotificationComponent, ElNotificationOptions } from 'element-ui/types
 import mixins from 'vue-typed-mixins';
 
 import { externalHooks } from '@/components/mixins/externalHooks';
-import { ExecutionError } from 'n8n-workflow';
+import type { ExecutionError } from 'n8n-workflow';
 import type { ElMessageBoxOptions } from 'element-ui/types/message-box';
 import type { ElMessageComponent, ElMessageOptions, MessageType } from 'element-ui/types/message';
 import { isChildOf } from './helpers';

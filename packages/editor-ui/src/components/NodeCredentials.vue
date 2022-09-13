@@ -63,7 +63,7 @@ import {
 	INodeUi,
 	INodeUpdatePropertiesInformation,
 } from '@/Interface';
-import {
+import type {
 	ICredentialType,
 	INodeCredentialDescription,
 	INodeCredentialsDetails,

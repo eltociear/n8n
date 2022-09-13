@@ -114,7 +114,7 @@ import {
 	IFakeDoor,
 } from '@/Interface';
 
-import {
+import type {
 	CredentialInformation,
 	ICredentialDataDecryptedObject,
 	ICredentialNodeAccess,

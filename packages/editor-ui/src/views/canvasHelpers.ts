@@ -2,7 +2,7 @@ import { getStyleTokenValue, isNumber } from "@/components/helpers";
 import { NODE_OUTPUT_DEFAULT_KEY, START_NODE_TYPE, STICKY_NODE_TYPE, QUICKSTART_NOTE_NAME } from "@/constants";
 import { IBounds, INodeUi, IZoomConfig, XYPosition } from "@/Interface";
 import { Connection, Endpoint, Overlay, OverlaySpec, PaintStyle } from "jsplumb";
-import {
+import type {
 	IConnection,
 	INode,
 	ITaskData,

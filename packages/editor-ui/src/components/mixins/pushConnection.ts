@@ -15,7 +15,7 @@ import { showMessage } from '@/components/mixins/showMessage';
 import { titleChange } from '@/components/mixins/titleChange';
 import { workflowHelpers } from '@/components/mixins/workflowHelpers';
 
-import {
+import type {
 	INodeTypeNameVersion,
 } from 'n8n-workflow';
 

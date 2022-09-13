@@ -82,7 +82,7 @@ import { genericHelpers } from '@/components/mixins/genericHelpers';
 import { ITemplatesCollection, ITemplatesWorkflow, ITemplatesQuery, ITemplatesCategory } from '@/Interface';
 import mixins from 'vue-typed-mixins';
 import { mapGetters } from 'vuex';
-import { IDataObject } from 'n8n-workflow';
+import type { IDataObject } from 'n8n-workflow';
 import { setPageTitle } from '@/components/helpers';
 import { VIEWS } from '@/constants';
 

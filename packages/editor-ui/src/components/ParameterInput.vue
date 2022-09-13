@@ -271,10 +271,9 @@ import {
 	INodeUi,
 	INodeUpdatePropertiesInformation,
 } from '@/Interface';
-import {
+import type {
 	NodeHelpers,
 	NodeParameterValue,
-	IHttpRequestOptions,
 	ILoadOptions,
 	INodeParameters,
 	INodePropertyOptions,

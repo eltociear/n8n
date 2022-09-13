@@ -25,7 +25,7 @@
 import Vue from 'vue';
 
 import { ICategoriesWithNodes, INodeCreateElement } from '@/Interface';
-import { INodeTypeDescription } from 'n8n-workflow';
+import type { INodeTypeDescription } from 'n8n-workflow';
 import SlideTransition from '../transitions/SlideTransition.vue';
 import { HIDDEN_NODES  } from '@/constants';
 

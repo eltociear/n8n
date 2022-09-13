@@ -49,7 +49,7 @@
 </template>
 
 <script lang="ts">
-import { ICredentialType } from 'n8n-workflow';
+import type { ICredentialType } from 'n8n-workflow';
 import Vue from 'vue';
 import { mapGetters } from 'vuex';
 import ScopesNotice from '@/components/ScopesNotice.vue';

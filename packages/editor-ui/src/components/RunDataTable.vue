@@ -156,7 +156,7 @@
 <script lang="ts">
 import { LOCAL_STORAGE_MAPPING_FLAG } from '@/constants';
 import { INodeUi, ITableData } from '@/Interface';
-import { GenericValue, IDataObject, INodeExecutionData } from 'n8n-workflow';
+import type { GenericValue, IDataObject, INodeExecutionData } from 'n8n-workflow';
 import Vue from 'vue';
 import mixins from 'vue-typed-mixins';
 import Draggable from './Draggable.vue';

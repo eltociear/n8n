@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import { INodeUi } from '@/Interface';
-import { IPinData } from 'n8n-workflow';
+import type { IPinData } from 'n8n-workflow';
 import { stringSizeInBytes } from '@/components/helpers';
 import { MAX_WORKFLOW_PINNED_DATA_SIZE, PIN_DATA_NODE_TYPES_DENYLIST } from '@/constants';
 

@@ -334,8 +334,7 @@
 <script lang="ts">
 //@ts-ignore
 import VueJsonPretty from 'vue-json-pretty';
-import {
-	GenericValue,
+import type {
 	IBinaryData,
 	IBinaryKeyData,
 	IDataObject,

@@ -74,7 +74,7 @@
 </template>
 
 <script lang="ts">
-import { ICredentialType } from 'n8n-workflow';
+import type { ICredentialType } from 'n8n-workflow';
 import { getAppNameFromCredType, isCommunityPackageName } from '../helpers';
 
 import Banner from '../Banner.vue';

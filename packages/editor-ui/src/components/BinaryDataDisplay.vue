@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts">
-import {
+import type {
 	IBinaryData,
 	IRunData,
 	IRunExecutionData,

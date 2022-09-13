@@ -13,7 +13,7 @@ import 'quill/dist/quill.core.css';
 import Quill, { DeltaOperation } from 'quill';
 // @ts-ignore
 import AutoFormat from 'quill-autoformat';
-import {
+import type {
 	NodeParameterValue,
 	Workflow,
 } from 'n8n-workflow';

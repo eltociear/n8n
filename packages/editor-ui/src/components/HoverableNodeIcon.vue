@@ -41,7 +41,7 @@
 import Vue from 'vue';
 
 import { ITemplatesNode } from '@/Interface';
-import { INodeTypeDescription } from 'n8n-workflow';
+import type { INodeTypeDescription } from 'n8n-workflow';
 
 interface NodeIconData {
 	type: string;

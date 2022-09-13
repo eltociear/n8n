@@ -102,7 +102,7 @@
 </template>
 
 <script lang="ts">
-import {
+import type {
 	INodeConnections,
 	INodeTypeDescription,
 	IRunData,

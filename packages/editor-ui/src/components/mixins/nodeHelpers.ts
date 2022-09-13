@@ -3,7 +3,7 @@ import {
 	CUSTOM_API_CALL_KEY,
 } from '@/constants';
 
-import {
+import type {
 	IBinaryKeyData,
 	ICredentialType,
 	INodeCredentialDescription,
